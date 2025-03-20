@@ -12,6 +12,6 @@ Mērķauditorija - Cilvēki, biežāk pusaudži, kuri grib aiziet un nopirkt sav
 
 Funkcionālās prasības - izmantošu pieejamās GUI bibliotēkas (Tkinter), programmu kodus (Python), API funkciju (atrašanas vieta veikalā) un Datubāzi, kas saglabā starptautiskās elektronikas preces. Kā arī izmantošu datubāzi, lai saglabā lietotāja informāciju un vēsturi ar sameklētām precēm.
 
-Lietotāja saskarnes dizains - Lietotāja pirmā cilnes vizualizācija būs reģistrēšanās (lietotāja vārds un parole), lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām(1. preces meklēšana 2. rekomendācijas 3. saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta) papildināts ar vizualizāciju un plakātu, kas reklamē mērķauditoriju par unikāli importētām elektonikas preču sīkrīkus.
+Lietotāja saskarnes dizains - Lietotāja pirmā cilnes vizualizācija būs reģistrēšanās (lietotāja vārds un parole), lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām(1. preces meklēšana 2. rekomendācijas 3. saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta un telefona numurs) papildināts ar vizualizāciju un plakātu, kas reklamē mērķauditoriju par unikāli importētam elektonikas preču sīkrīkus.
 
-Tehniskās prasības - Sniedziet sīku informāciju par programmatūras sistēmas tehniskajām prasībām, tostarp par operētājsistēmu, aparatūru un programmatūru, kas tai jāatbalsta.
+Tehniskās prasības - tīkls ir izveidots prekš Windows operātorasistēma.
