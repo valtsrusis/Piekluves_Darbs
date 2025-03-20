@@ -5,8 +5,13 @@ Problēma - Viens pusaudzis grib nopirkt jaunu spēles konsoli un piemērotu ele
 
 Risinājums - Reklamēšu jaunu elektronikas veikalu, izmantojot aplikāciju
 	- lietotājs var piereģistrēties, sameklēt pieejamu elektronisko sīkrīku
-	- noklikšķinot uz programmas ieejamo saiti, lietotājs tiek ielikts uz oriģinālo veikala mājaslapas instrumentu
+	- noklikšķinot uz programmas ieejamo saiti, lietotājs tiek ielikts uz oriģinālo veikala mājaslapu
 
 Mērķauditorija - Cilvēki, biežāk pusaudži, kuri grib aiziet un nopirkt savu preci netālu (5min) no savas mājas.
+# Programmas Prasību Specifikācijas
 
-Funkcionalitāte - izmantošu pieejamās GUI bibliotēkas (Tkinter), programmu kodus (Python), API funkciju (atrašanas vieta veikalā) un Datubāzi, kas saglabā starptautiskās elektronikas preces.
+Funkcionālās prasības - izmantošu pieejamās GUI bibliotēkas (Tkinter), programmu kodus (Python), API funkciju (atrašanas vieta veikalā) un Datubāzi, kas saglabā starptautiskās elektronikas preces. Kā arī izmantošu datubāzi, lai saglabā lietotāja informāciju un vēsturi ar sameklētām precēm.
+
+Lietotāja saskarnes dizains - Lietotāja pirmā cilnes vizualizācija būs reģistrēšanās (lietotāja vārds un parole), lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām(1. preces meklēšana 2. rekomendācijas 3. saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta) papildināts ar vizualizāciju un plakātu, kas reklamē mērķauditoriju.
+
+Tehniskās prasības - Sniedziet sīku informāciju par programmatūras sistēmas tehniskajām prasībām, tostarp par operētājsistēmu, aparatūru un programmatūru, kas tai jāatbalsta.
