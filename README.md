@@ -17,9 +17,9 @@
 3. _saites kontaktinformācija poga, kur ir pievienots veikalas atrašanas vieta un telefona numurs, lai lietotājs var sazināties ar veikala vadītāja_
 
 **Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
-> preces meklēšana poga
-> rekomendācijas poga
-> saites kontaktinformācija poga
+- preces meklēšana poga
+- rekomendācijas poga
+- saites kontaktinformācija poga
 Papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
 
 **Tehniskās prasības** - programmatūra ir izveidots prekš Windows operātorsistēma.
