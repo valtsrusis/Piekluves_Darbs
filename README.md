@@ -16,8 +16,6 @@
 2. _rekomendācijas poga ar ko izmantos lietotāja nesen meklētās preces datus un izmantos tos datus, lai ar vizualizāciju parāda šo preces attēlu, kad iespied pogu "rekomendācija" (PS: ši poga tikai parādīsies, kad lietotājs ievada savu ievēloto preci uz "preces meklēšana" pogā, kad datubāze saglabā lietotāja darbību)_
 3. _saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta un telefona numurs, lai lietotājs var sazināties ar veikala vadītāja_
 
-**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs reģistrēšanās (lietotāja vārds un parole, kas saglabās to datus), lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
-
-papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
+**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs reģistrēšanās (lietotāja vārds un parole, kas saglabās to datus), lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām, kas arī ir papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
 
 **Tehniskās prasības** - programmatūra ir izveidots prekš Windows operātorsistēma.
