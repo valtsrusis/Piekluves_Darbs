@@ -20,6 +20,7 @@
 - preces meklēšana poga
 - rekomendācijas poga
 - saites kontaktinformācija poga
+
 Papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
 
 **Tehniskās prasības** - programmatūra ir izveidots prekš Windows operātorsistēma.
