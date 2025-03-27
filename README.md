@@ -11,16 +11,16 @@
 **Mērķauditorija** - Cilvēki, biežāk pusaudži, kuri grib aiziet un nopirkt savu preci netālu (5min) no savas mājas.
 ## Programmas Prasību Specifikācijas
 
-**Funkcionālās prasības** - izmantošu pieejamās GUI bibliotēkas (Tkinter), programmu kodus (Python), API funkciju (atrašanas vieta veikalā) un Datubāzi, kas saglabā starptautiskās elektronikas preces. Kā arī izmantošu datubāzi, lai saglabā lietotāja informāciju un vēsturi ar sameklētām precēm.
+**Funkcionālās prasības** - izmantošu pieejamās GUI bibliotēkas (Tkinter), programmu kodus (Python), API funkciju (atrašanas vieta veikalā) un Datubāzi, kas saglabā starptautiskās elektronikas preces. Kā arī izmantošu datubāzi, lai saglabā lietotāja informāciju un vēsturi ar sameklētām precēm. Reģistrācijas cilnē būs "reCAPTCHA" poga, kas pārbauda lietotāju un novērs eksplotāciju programmā.
 1. _preces meklēšana poga, lai lietotājs var brīvi ievadīt un sameklēt savu ievēloto preci_
 2. _rekomendācijas poga ar ko izmantos lietotāja nesen meklētās preces datus un izmantos tos datus, lai ar vizualizāciju parāda šo preces attēlu, kad iespied pogu "rekomendācija" (PS: ši poga tikai parādīsies, kad lietotājs ievada savu ievēloto preci uz "preces meklēšana" pogā, kad datubāze saglabā lietotāja darbību)_
 3. _saites kontaktinformācija poga, kur ir pievienots veikalas atrašanas vieta un telefona numurs, lai lietotājs var sazināties ar veikala vadītāja_
 
-**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
+**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
 2) rekomendācijas poga
 3) saites kontaktinformācija poga
 
 Papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
 
-**Tehniskās prasības** - programmatūra ir izveidots prekš Windows operātorsistēma.
+**Tehniskās prasības** - programmatūra ir izveidots Windows operatīva sistēma. Programmatūrā būs jaizmanto funkcionālā datoru pele un klaviatūra. Programma būs maza, un tai nav nepieciešams liels pieprasījums pēc datora specifikācijām (aptuveni ļoti maz operatīva atmiņa izmantojums).
