@@ -23,4 +23,4 @@
 
 Papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
 
-**Tehniskās prasības** - programmatūra ir izveidots Windows operatīva sistēma. Programmatūrā būs jaizmanto funkcionālā datoru pele un klaviatūra. Programma būs maza, un tai nav nepieciešams liels pieprasījums pēc datora specifikācijām (aptuveni ļoti maz operatīva atmiņa izmantojums).
+**Tehniskās prasības** - programmatūra ir izveidots Windows operatīva sistēma. Programmatūrā būs jaizmanto funkcionālā datoru pele un klaviatūra. Programmā nav pieprasījumi datoru specifikācijām(aptuveni ļoti maz operatīva atmiņa izmantojums).
