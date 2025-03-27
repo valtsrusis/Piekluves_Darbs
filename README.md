@@ -16,6 +16,23 @@
 2. _rekomendācijas poga ar ko izmantos lietotāja nesen meklētās preces datus un izmantos tos datus, lai ar vizualizāciju parāda šo preces attēlu, kad iespied pogu "rekomendācija" (PS: ši poga tikai parādīsies, kad lietotājs ievada savu ievēloto preci uz "preces meklēšana" pogā, kad datubāze saglabā lietotāja darbību)_
 3. _saites kontaktinformācija poga, kur ir pievienots veikalas atrašanas vieta un telefona numurs, lai lietotājs var sazināties ar veikala vadītāja_
 
+***Funkcionālās prasības 1:*** 
+- Datu ievada nepieciešamība 
+
+Funkcija ļauj lietotājam izvēlēties pulksteņlaiku, kad viņš ceļas un iet gulēt, lai zinātu, kurā laikposmā sūtīt atgādinājumus. 
+
+- Datu ievades saturs
+
+Izvēles iespējas 00:00–23:59. 
+
+- Datu apstrāde 
+
+Izvēlētais vienums tiek saglabāts kā ‘dienas sākums’ un ‘dienas beigas’. 
+
+- Datu izvade 
+
+Nav. 
+
 **Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
 2) rekomendācijas poga
