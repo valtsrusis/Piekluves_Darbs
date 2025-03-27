@@ -14,8 +14,12 @@
 **Funkcionālās prasības** - izmantošu pieejamās GUI bibliotēkas (Tkinter), programmu kodus (Python), API funkciju (atrašanas vieta veikalā) un Datubāzi, kas saglabā starptautiskās elektronikas preces. Kā arī izmantošu datubāzi, lai saglabā lietotāja informāciju un vēsturi ar sameklētām precēm.
 1. _preces meklēšana poga, lai lietotājs var brīvi ievadīt un sameklēt savu ievēloto preci_
 2. _rekomendācijas poga ar ko izmantos lietotāja nesen meklētās preces datus un izmantos tos datus, lai ar vizualizāciju parāda šo preces attēlu, kad iespied pogu "rekomendācija" (PS: ši poga tikai parādīsies, kad lietotājs ievada savu ievēloto preci uz "preces meklēšana" pogā, kad datubāze saglabā lietotāja darbību)_
-3. _saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta un telefona numurs, lai lietotājs var sazināties ar veikala vadītāja_
+3. _saites kontaktinformācija poga, kur ir pievienots veikalas atrašanas vieta un telefona numurs, lai lietotājs var sazināties ar veikala vadītāja_
 
-**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs reģistrēšanās (lietotāja vārds un parole, kas saglabās to datus), lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām, kas arī ir papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
+**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
+> preces meklēšana poga
+> rekomendācijas poga
+> saites kontaktinformācija poga
+Papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
 
 **Tehniskās prasības** - programmatūra ir izveidots prekš Windows operātorsistēma.
