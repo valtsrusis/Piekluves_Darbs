@@ -20,4 +20,4 @@
 
 papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
 
-**Tehniskās prasības** - tīkls ir izveidots prekš Windows operātorsistēma.
+**Tehniskās prasības** - programmatūra ir izveidots prekš Windows operātorsistēma.
