@@ -18,6 +18,6 @@
 2. _rekomendācijas poga ar ko izmantos lietotāja nesen meklētās preces datus un izmantos tos datus, lai ar vizualizāciju parāda šo preces attēlu, kad iespied pogu "rekomendācija" (PS: ši poga tikai parādīsies, kad lietotājs ievada savu ievēloto preci uz "preces meklēšana" pogā, kad datubāze saglabā lietotāja darbību)_
 3. _saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta un telefona numurs, lai lietotājs var sazināties ar veikala vadītāja_
 
-papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektonikas preču sīkrīkus.
+papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
 
 **Tehniskās prasības** - tīkls ir izveidots prekš Windows operātorsistēma.
