@@ -12,10 +12,10 @@
 
 **Funkcionālās prasības** - izmantošu pieejamās GUI bibliotēkas (Tkinter), programmu kodus (Python), API funkciju (atrašanas vieta veikalā) un Datubāzi, kas saglabā starptautiskās elektronikas preces. Kā arī izmantošu datubāzi, lai saglabā lietotāja informāciju un vēsturi ar sameklētām precēm.
 
-**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs reģistrēšanās (lietotāja vārds un parole), lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:( 
-1. preces meklēšana
-2. rekomendācijas
-3. saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta un telefona numurs)
+**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs reģistrēšanās (lietotāja vārds un parole), lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
+1. _preces meklēšana_
+2. _rekomendācija_
+3. _saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta un telefona numurs_
 papildināts ar vizualizāciju un plakātu, kas reklamē mērķauditoriju par unikāli importētam elektonikas preču sīkrīkus.
 
 **Tehniskās prasības** - tīkls ir izveidots prekš Windows operātorasistēma.
