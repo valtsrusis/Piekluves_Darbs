@@ -16,6 +16,7 @@
 1. _preces meklēšana_
 2. _rekomendācija_
 3. _saites kontaktinformācija, kur ir pievienots veikalas atrašanas vieta un telefona numurs_
+
 papildināts ar vizualizāciju un plakātu, kas reklamē mērķauditoriju par unikāli importētam elektonikas preču sīkrīkus.
 
 **Tehniskās prasības** - tīkls ir izveidots prekš Windows operātorasistēma.
