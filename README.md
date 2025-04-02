@@ -16,22 +16,97 @@
 2. _rekomendācijas poga ar ko izmantos lietotāja nesen meklētās preces datus un izmantos tos datus, lai ar vizualizāciju parāda šo preces attēlu, kad iespied pogu "rekomendācija" (PS: ši poga tikai parādīsies, kad lietotājs ievada savu ievēloto preci uz "preces meklēšana" pogā, kad datubāze saglabā lietotāja darbību)_
 3. _saites kontaktinformācija poga, kur ir pievienots veikalas atrašanas vieta un telefona numurs, lai lietotājs var sazināties ar veikala vadītāja_
 
-***Funkcionālās prasības 1 - (iespiedot pogu "reģistrēties"):***
+***Funkcionālās prasības 1 - (Poga "Reģistrēties"):***
+
 - Datu ievada nepieciešamība 
 
   Nepieciešams ievadīt - Vārds, Uzvārds, E-pasts, Parole, Paroles atkārtojums
 
 - Datu ievades saturs
 
-  Izvēles iespējas 00:00–23:59. 
+  Vārds - Jānis, Uzvārds - Bulgerts, E-pasts - janis.bulgerts@gmail.com, Parole - 1234, Paroles atkārtojums - 1234
 
 - Datu apstrāde 
 
-  Izvēlētais vienums tiek saglabāts kā ‘dienas sākums’ un ‘dienas beigas’. 
+  Lietotājam būs saglabāta kontu informācija datubāzē
 
 - Datu izvade 
 
-  Nav. 
+  Iemetīs lietotāju uz jauno cilni.
+
+***Funkcionālā prasība 2 - (Poga "Meklēt")***
+
+- Datu ievada nepieciešamība
+
+  Ievadīt savu nepieciešamo elektronikas sīkrīka preci
+
+- Datu ievades saturs 
+
+  Elektronikas sīkrīku prece - Pele
+
+- Datu apstrāde  
+
+  Datubāze sameklēs ievadīto lietotāju preci (peli) 
+
+- Datu izvade 
+
+  Funkcija rekomendēs lietotāja ievadīto preci (peles rekomendācijas no populāras firmas)
+
+***Funkcionālā prasība 3 - (Preces priekšstaktījums)*** 
+
+- Datu ievada nepieciešamība 
+
+  Nospiedot uz lietotāja izvēlēto preci ar kursoru.
+
+- Datu ievades saturs 
+
+  Nospiestā prece - Pele
+
+- Datu apstrāde 
+
+  Datubāze sameklēs nospiesto lietotāju preci (peli) 
+
+- Datu izvade 
+
+  Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
+
+***Funkcionālā prasība 4 - (Poga "Nopirkt")***
+
+- Datu ievada nepieciešamība 
+
+  Nospiedot uz pogu "Nopirkt" ar kursoru.
+
+- Datu ievades saturs:
+
+  Nospietā attēlu prece - pele
+
+- Datu apstrāde
+
+  Programma izveidos papildcilnu ar kuru izģenerēs rēķinu, datu bāzē sameklēs lietotāja informāciju (Vārdu, Uzvārdu, E-pastu), sameklēto E-pastu atsūtīs pastu ar 
+
+- Datu izvade
+
+  Izvada papildcilni ar datu apstrādes teikto un 
+
+3.1.5. Funkcionālā prasība 5
+
+Taimera ieslēgšana 
+
+3.1.5.1. Datu ievada nepieciešamība 
+
+Ņemot vērā saglabātos datus (dienas sākumu un beigas un atgādinājuma intervālu), tiek ieslēgts taimeris, kas katru reizi atgādina par ūdens dzeršanu. 
+
+3.1.5.2. Datu ievades saturs 
+
+Nav. 
+
+3.1.5.3. Datu apstrāde 
+
+Tiek veidota funkcija, kas aprēķina, kad un cik bieži jāsūta atgādinājumi. Tiek ieslēgts taimeris, kas katru reizi atgādina par ūdens dzeršanu. 
+
+3.1.5.4. Datu izvade 
+
+Izvada atgādinājumu pareizajos laikos. “Ir laiks izdzert glāzi ūdens!” Un tad nospiežot parādās otrais lodziņš, kurā gaida apstiprinājumu “Vai izdzēri 1 glāzi ūdens?” Apstiprina vai noliedz. 
 
 **Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
