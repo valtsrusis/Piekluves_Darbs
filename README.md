@@ -82,31 +82,31 @@
 
 - Datu apstrāde
 
-  Programma izveidos papildcilnu ar kuru izģenerēs rēķinu, datu bāzē sameklēs lietotāja informāciju (Vārdu, Uzvārdu, E-pastu), sameklēto E-pastu atsūtīs pastu ar 
+  Programma izveidos papildcilnu ar kuru izģenerēs rēķinu, datu bāzē sameklēs lietotāja informāciju E-pastu, sameklēto E-pastu atsūtīs pircējam pastu ar pieprasījumu un 
 
 - Datu izvade
 
   Izvada papildcilni ar datu apstrādes teikto un 
 
-3.1.5. Funkcionālā prasība 5
+***Funkcionālā prasība 5 - (Viesa režīms)***
 
-Taimera ieslēgšana 
+- Datu ievada nepieciešamība 
 
-3.1.5.1. Datu ievada nepieciešamība 
+  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
 
-Ņemot vērā saglabātos datus (dienas sākumu un beigas un atgādinājuma intervālu), tiek ieslēgts taimeris, kas katru reizi atgādina par ūdens dzeršanu. 
+- Datu ievades saturs 
 
-3.1.5.2. Datu ievades saturs 
+  Nav. 
 
-Nav. 
+- Datu apstrāde 
 
-3.1.5.3. Datu apstrāde 
+  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
 
-Tiek veidota funkcija, kas aprēķina, kad un cik bieži jāsūta atgādinājumi. Tiek ieslēgts taimeris, kas katru reizi atgādina par ūdens dzeršanu. 
+- Datu izvade 
 
-3.1.5.4. Datu izvade 
+  Iemetīs lietotāju uz jauno cilni bez konta.
 
-Izvada atgādinājumu pareizajos laikos. “Ir laiks izdzert glāzi ūdens!” Un tad nospiežot parādās otrais lodziņš, kurā gaida apstiprinājumu “Vai izdzēri 1 glāzi ūdens?” Apstiprina vai noliedz. 
+***Funkcion
 
 **Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
