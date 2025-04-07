@@ -70,6 +70,24 @@
 
   Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
 
+***Funkcionālā prasība 6 - (Poga "Pievienot grozā")***
+
+- Datu ievada nepieciešamība 
+
+  Nospiedot uz lietotāja izvēlēto preci ar kursoru.
+
+- Datu ievades saturs 
+
+  Nospiestā prece - Pele
+
+- Datu apstrāde 
+
+  Datubāze sameklēs nospiesto lietotāju preci (peli) 
+
+- Datu izvade 
+
+  Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
+
 ***Funkcionālā prasība 4 - (Poga "Nopirkt")***
 
 - Datu ievada nepieciešamība 
@@ -105,8 +123,6 @@
 - Datu izvade 
 
   Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcion
 
 **Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
