@@ -70,25 +70,43 @@
 
   Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
 
-***Funkcionālā prasība 6 - (Poga "Pievienot grozā")***
+***Funkcionālā prasība 4 - (Poga "Pievienot grozā")***
 
 - Datu ievada nepieciešamība 
 
-  Nospiedot uz lietotāja izvēlēto preci ar kursoru.
+  Nospiedot uz pogu "Pievienot grozā" ar kursoru.
 
 - Datu ievades saturs 
 
-  Nospiestā prece - Pele
+  Lietotājs grib apskatīt pievienotās preces
 
 - Datu apstrāde 
 
-  Datubāze sameklēs nospiesto lietotāju preci (peli) 
+  Jaunajā cilnē parādīs lietotāja izvēlētās preces grozā, preces kopsavilkto informāciju un cenu
 
 - Datu izvade 
 
   Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
 
-***Funkcionālā prasība 4 - (Poga "Nopirkt")***
+***Funkcionālā prasība 5 - (Poga "Noņemt grozā")***
+
+- Datu ievada nepieciešamība 
+
+  Nospiedot uz pogu "Noņemt grozā" ar kursoru.
+
+- Datu ievades saturs 
+
+  Lietotājs nevēlas specifisko elektronikas sīkrīku savā grozā, piemēram, klaviatūru
+
+- Datu apstrāde 
+
+  Noņems ārā preci no lietotājas groza
+
+- Datu izvade 
+
+  Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
+
+***Funkcionālā prasība 5 - (Poga "Nopirkt")***
 
 - Datu ievada nepieciešamība 
 
@@ -96,7 +114,7 @@
 
 - Datu ievades saturs:
 
-  Nospietā attēlu prece - pele
+  Nav.
 
 - Datu apstrāde
 
@@ -106,7 +124,7 @@
 
   Izvada papildcilni ar datu apstrādes teikto un 
 
-***Funkcionālā prasība 5 - (Viesa režīms)***
+***Funkcionālā prasība 6 - (Viesa režīms)***
 
 - Datu ievada nepieciešamība 
 
