@@ -46,13 +46,13 @@
 
 - Datu apstrāde 
 
-  
+  Lietotāja konta informācija vēl ir saglabāta datubāzē, tikai jāievada atkal reģistrācijas cilnē
 
 - Datu izvade 
 
   Iemetīs lietotāju uz iepriekšējo cilnu, kur lietotājai ir izvēle atkal reģistrēties vai ieiet viesu režīmā
 
-***Funkcionālā prasība 2 - (Poga "Meklēt")***
+***Funkcionālā prasība 3 - (Poga "Meklēt")***
 
 - Datu ievada nepieciešamība
 
@@ -70,7 +70,7 @@
 
   Funkcija rekomendēs lietotāja ievadīto preci (peles rekomendācijas no populāras firmas)
 
-***Funkcionālā prasība 3 - (Preces priekšstaktījums)*** 
+***Funkcionālā prasība 4 - (Preces priekšstaktījums)*** 
 
 - Datu ievada nepieciešamība 
 
@@ -88,7 +88,7 @@
 
   Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
 
-***Funkcionālā prasība 4 - (Poga "Pievienot grozā")***
+***Funkcionālā prasība 5 - (Poga "Pievienot grozā")***
 
 - Datu ievada nepieciešamība 
 
@@ -106,7 +106,7 @@
 
   Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
 
-***Funkcionālā prasība 5 - (Poga "Noņemt grozā")***
+***Funkcionālā prasība 6 - (Poga "Noņemt grozā")***
 
 - Datu ievada nepieciešamība 
 
@@ -124,7 +124,7 @@
 
   Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
 
-***Funkcionālā prasība 6 - (Poga "Nopirkt")***
+***Funkcionālā prasība 7 - (Poga "Nopirkt")***
 
 - Datu ievada nepieciešamība 
 
@@ -142,7 +142,7 @@
 
   Izvada papildcilni ar datu apstrādes teikto un 
 
-***Funkcionālā prasība 7 - (Viesa režīms)***
+***Funkcionālā prasība 8 - (Viesa režīms)***
 
 - Datu ievada nepieciešamība 
 
@@ -160,15 +160,15 @@
 
   Iemetīs lietotāju uz jauno cilni bez konta.
 
-***Funkcionālā prasība 7 - (Viesa režīms)***
+***Funkcionālā prasība 9 - (Veikalu kontaktinformācija)***
 
 - Datu ievada nepieciešamība 
 
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
+  Nospiedot uz pogu "kontaktinformācija" ar kursoru. 
 
 - Datu ievades saturs 
 
-  Nav. 
+  Lietotājs grib sazināties ar vietnes īpašnieku. 
 
 - Datu apstrāde 
 
@@ -176,169 +176,8 @@
 
 - Datu izvade 
 
-  Iemetīs lietotāju uz jauno cilni bez konta.
+  Iemetīs lietotāju uz jauno cilni ar redzamu .
 
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
-
-***Funkcionālā prasība 7 - (Viesa režīms)***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Viesa režīms" ar kursoru. 
-
-- Datu ievades saturs 
-
-  Nav. 
-
-- Datu apstrāde 
-
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilni bez konta.
 **Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
 2) rekomendācijas poga
