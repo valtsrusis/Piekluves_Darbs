@@ -7,7 +7,7 @@ poga.pack()
 import googlemaps
 from datetime import datetime
 
-gmaps = googlemaps.Client(key="AIzaSyB9WNy4lIYhQTZAZcKS5etg-HmXHZo6J18")
+gmaps = googlemaps.Client(key="API_KEY")
 
 # Geocoding an address
 geocode_result = gmaps.geocode('1600 Amphitheatre Parkway, Mountain View, CA')
