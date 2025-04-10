@@ -172,11 +172,11 @@
 
 - Datu apstrāde 
 
-  Lietotāja dati netiks saglabāti, kad apmeklē veikalas saiti.
+  Iespiežot uz kontaktinformācijas pogu, lietos API Google Maps, lai rādītu lietotājam veikalas atrašanas vietu.
 
 - Datu izvade 
 
-  Iemetīs lietotāju uz jauno cilni ar redzamu .
+  Iemetīs lietotāju uz jauno cilni ar redzamu vietnes īpašnieka telefona numuru un veikalas atrašanas vietu.
 
 **Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
