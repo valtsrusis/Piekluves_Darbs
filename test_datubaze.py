@@ -1,19 +1,14 @@
-import mysql.connector
+import sqlite3
 
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="myusername",
-  password="mypassword",
-  database="mydatabase"
-)
+connection = sqlite3.connect('students.db')
 
-mycursor = mydb.cursor()
+c = connection.cursor()
 
-sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
-val = ("John", "Highway 21")
+c.execute("""CREATE TABLE students  (
+            name TEXT,
+            age INTEGER,
+            height REAL
+    )""")
 
-mycursor.execute(sql, val)
-
-mydb.commit()
-
-print(mycursor.rowcount, "record inserted.")
+connection.commit()
+connection.close()
