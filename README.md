@@ -180,7 +180,7 @@
 
 **Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
-2) rekomendācijas poga
+2) pirkšana poga
 3) saites kontaktinformācija poga
 
 Papildināts ar vizualizācijas plakātu, kas reklamē mērķauditoriju par unikāli importētam elektronikas preču sīkrīkus.
