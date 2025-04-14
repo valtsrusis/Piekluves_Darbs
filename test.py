@@ -1,5 +1,7 @@
 import tkinter as tk
 from tkinter import *
+from captcha.image import ImageCaptcha
+from io import BytesIO
 import test_datubaze
 import sqlite3
 import hashlib
@@ -23,7 +25,7 @@ def hash_password(password):
 
 
 root = tk.Tk()
-root.title("Ventspils Starptautiskā elektronika")
+root.title("Ventspils Starptautiska elektronika")
 
 ###Gara līnīju komanda, lai samainītu taskbar ikonu uz izvēlēto ikonas bildi.
 myappid = 'mycompany.myproduct.subproduct.version'
@@ -33,6 +35,7 @@ root.geometry("900x600")
 
 greeting = tk.Label(root, text="Laipni lūdzam uz Ventspils Starptautiskā elektronikas veikalu!", fg='blue', font=('Aerial', 20, 'bold'))
 greeting.pack()
+
 
 
 """
@@ -68,7 +71,7 @@ email_entry.place(x=430, y=200)
 password_entry = Entry(root, textvariable=passwordvalue, bd=2, relief="ridge", show='*')
 password_entry.place(x=430, y=250)
 
-contact_button = Button(text="Kontakti", height=2, width=20, bd=3, relief="groove")
+contact_button = Button(text="Kontakti", height=2, width=20, bd=3, relief="groove", command=lambda:contactProcess())
 contact_button.place(x=700, y=500)
 
 registration_button = Button(text="Piereģistrēties", height=3, width=20, bd=6, relief="raised", command=lambda:registrationProcess())
@@ -93,7 +96,14 @@ def registrationProcess():
     connection.close()
 
 
-#def contactProcess():
-
+def contactProcess():
+    top = tk.Toplevel()
+    top.geometry("900x600")
+    top.title("Ventspils Starptautiska elektronika")
+    myappid = 'mycompany.myproduct.subproduct.version'
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+    top.iconbitmap('Designer.ico')
+    topButton = Button(top, text="CLOSE", command = top.destroy)
+    topButton.pack()
 
 tk.mainloop()
