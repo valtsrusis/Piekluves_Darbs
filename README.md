@@ -20,11 +20,11 @@
 
 - Datu ievada nepieciešamība 
 
-  Nepieciešams ievadīt - Vārds, Uzvārds, E-pasts, Parole, Paroles atkārtojums
+  Nepieciešams ievadīt - Vārds, Uzvārds, E-pasts, Parole
 
 - Datu ievades saturs
 
-  Vārds - Jānis, Uzvārds - Bulgerts, E-pasts - janis.bulgerts@gmail.com, Parole - 1234, Paroles atkārtojums - 1234
+  Vārds - Jānis, Uzvārds - Bulgerts, E-pasts - janis.bulgerts@gmail.com, Parole - 1234
 
 - Datu apstrāde 
 
@@ -88,43 +88,7 @@
 
   Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
 
-***Funkcionālā prasība 5 - (Poga "Pievienot grozā")***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Pievienot grozā" ar kursoru.
-
-- Datu ievades saturs 
-
-  Lietotājs grib apskatīt pievienotās preces
-
-- Datu apstrāde 
-
-  Jaunajā cilnē parādīs lietotāja izvēlētās preces grozā, preces kopsavilkto informāciju un cenu
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
-
-***Funkcionālā prasība 6 - (Poga "Noņemt grozā")***
-
-- Datu ievada nepieciešamība 
-
-  Nospiedot uz pogu "Noņemt grozā" ar kursoru.
-
-- Datu ievades saturs 
-
-  Lietotājs nevēlas specifisko elektronikas sīkrīku savā grozā, piemēram, klaviatūru
-
-- Datu apstrāde 
-
-  Noņems ārā preci no lietotājas groza
-
-- Datu izvade 
-
-  Iemetīs lietotāju uz jauno cilnu lietotāja izvēlētā precē.
-
-***Funkcionālā prasība 7 - (Poga "Nopirkt")***
+***Funkcionālā prasība 5 - (Poga "Nopirkt")***
 
 - Datu ievada nepieciešamība 
 
@@ -142,7 +106,7 @@
 
   Izvada papildcilni ar datu apstrādes teikto un 
 
-***Funkcionālā prasība 8 - (Viesa režīms)***
+***Funkcionālā prasība 6 - (Viesa režīms)***
 
 - Datu ievada nepieciešamība 
 
@@ -160,7 +124,7 @@
 
   Iemetīs lietotāju uz jauno cilni bez konta.
 
-***Funkcionālā prasība 9 - (Veikalu kontaktinformācija)***
+***Funkcionālā prasība 7 - (Veikalu kontaktinformācija)***
 
 - Datu ievada nepieciešamība 
 
@@ -178,7 +142,7 @@
 
   Iemetīs lietotāju uz jauno cilni ar redzamu vietnes īpašnieka telefona numuru un veikalas atrašanas vietu.
 
-**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole, Paroles pārrakstīšana un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
+**Lietotāja saskarnes dizains** - Lietotāja pirmā cilnes vizualizācija būs ielogoties (lietotāja vārds un parole, kas saglabās to datus), opcija - poga piereģistrēties, lai lietotājs ievada savu nepieciešamo informāciju (Vārds, Uzvārds, E-pasts, Parole un "reCAPTCHA" poga). Lietotājam ir arī iespēja ieiet uz viesa režīmu, kas nesaglabā lietotāja sameklētās preces vēsturi. Pēc šis cilnes, lietotājam būs izvēle noklikšķināt uz trim pogām:
 1) preces meklēšana poga
 2) pirkšana poga
 3) saites kontaktinformācija poga
