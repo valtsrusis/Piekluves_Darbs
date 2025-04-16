@@ -7,6 +7,7 @@ import ctypes
 
 def search_records():
     lookup_records = search_entry.get()
+    query_database()
     connection = sqlite3.connect('products.db')
     c = connection.cursor()
     c.execute("SELECT * FROM electronic_products WHERE product_name = (?)", (lookup_records,))
@@ -62,7 +63,8 @@ def contactProcess():
 def logoff_tab():
     logoff = tk.Label(root, text="Iziet no kontas", fg="blue", cursor='hand2', font=('underline'))
     logoff.pack(padx=30, pady=80)
-    logoff.bind('<Button-1>', COMMAND)
+    logoff.bind('<Button-1>', previous_window)
 
-def previous_window():
+def previous_window(event):
+    event.char
     root.destroy()
