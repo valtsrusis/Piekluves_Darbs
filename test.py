@@ -3,6 +3,7 @@ from tkinter import messagebox
 from tkinter import *
 import test_datubaze
 import test_map
+import test_veikals
 import sqlite3
 import hashlib
 import ctypes
@@ -82,9 +83,10 @@ def login_user(username, password):
               (username, hashed_password))
     user = c.fetchone()
     if user:
-        messagebox.showinfo("Veiksme", "Veiksmīga logošana!")
         test_datubaze.show_all()
+        messagebox.showinfo("Veiksme", "Veiksmīga logošana!")
         root.destroy()
+        test_veikals.new_tab()
     else:
         messagebox.showerror("Kļūda", "Nepareizi ievadīta lietotājvārds vai parole!")
 
