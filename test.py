@@ -59,10 +59,18 @@ contact_button = Button(text="Kontakti", height=2, width=20, bd=3, relief="groov
 contact_button.place(x=700, y=330)
 
 registration_button = Button(text="Piereģistrēties", height=3, width=20, bd=6, relief="raised", command=lambda:registrationProcess())
-registration_button.place(x=280, y=250)
+registration_button.place(x=280, y=200)
 
-registration_button = Button(text="Ielogoties", height=3, width=20, bd=6, relief="raised", command=lambda:loginProcess())
-registration_button.place(x=460, y=250)
+login_button = Button(text="Ielogoties", height=3, width=20, bd=6, relief="raised", command=lambda:loginProcess())
+login_button.place(x=460, y=200)
+
+guest_button = Button(text="Viesu režīms", height=3, width=20, command=lambda:guestProcess())
+guest_button.place(x=375, y=280)
+
+def guestProcess():
+    messagebox.showinfo("Laipni lūdzam", "Vari tagad apskatīt preces!")
+    root.destroy()
+    test_veikals.new_tab()
 
 def registrationProcess():
     username = username_entry.get()
@@ -87,6 +95,7 @@ def login_user(username, password):
         messagebox.showinfo("Veiksme", "Veiksmīga logošana!")
         root.destroy()
         test_veikals.new_tab()
+        test_veikals.logoff_tab()
     else:
         messagebox.showerror("Kļūda", "Nepareizi ievadīta lietotājvārds vai parole!")
 
