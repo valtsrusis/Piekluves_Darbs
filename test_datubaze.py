@@ -11,17 +11,17 @@ def show_all():
     items = c.fetchall()
 
     for item in items:
-        print(item)
+        print(item[0], item[1], item[2])
     
     connection.commit()
 
     connection.close()
 
 
-def add_one(id,first,last,email,password):
+def add_one(id,username,password):
     connection = sqlite3.connect('login.db')
     c = connection.cursor()
-    c.execute("INSERT INTO login_information VALUES (?,?,?,?,?)", (id,first,last,email,password))
+    c.execute("INSERT INTO login_information VALUES (?,?)", (id,username,password))
     connection.commit()
     connection.close()
 
@@ -39,7 +39,7 @@ def delet_one(id):
 #connection = sqlite3.connect('login.db')
 #c = connection.cursor()
 #c.execute("DELETE from login_information WHERE id = (26)")
-#c.execute("UPDATE sqlite_sequence SET seq = 0 WHERE name = 'login_information'")
+#c.execute("UPDATE sqlite_sequence SET seq = 0 WHERE username = 'login_information'")
 #connection.commit()
 #connection.close()
 
@@ -47,8 +47,6 @@ def delet_one(id):
 #c.execute("""CREATE TABLE IF NOT EXISTS login_information  (
 #            id integer PRIMARY KEY AUTOINCREMENT,
 #            username TEXT UNIQUE,
-#            surname TEXT,
-#            email TEXT,
 #            password TEXT
 #    )""")
 #
@@ -57,3 +55,36 @@ def delet_one(id):
 
 #c.execute("INSERT INTO login_information VALUES ('1', 'Jānis', 'Bulgerts', 'janis.bulgerts@gmail.com', 'lielais')")
 #c.execute("INSERT INTO login_information VALUES ('2', 'Jēkabs', 'Origs', 'jekabs.origs@gmail.com', 'lielie')")
+
+
+
+
+
+#connection = sqlite3.connect('products.db')
+#c = connection.cursor()
+
+#c.execute("""CREATE TABLE IF NOT EXISTS electronic_products  (
+#            product_name TEXT,
+#            price REAL,
+#            currency TEXT
+#    )""")
+
+#c.execute("INSERT INTO electronic_products VALUES ('Datoru pele', '50.99', '€')")
+#c.execute("INSERT INTO electronic_products VALUES ('Monitors', '100', '€')")
+#c.execute("INSERT INTO electronic_products VALUES ('Tastatūra', '59.99', '€')")
+#c.execute("INSERT INTO electronic_products VALUES ('Video karte', '340.99', '€')")
+#c.execute("INSERT INTO electronic_products VALUES ('Personālais dators', '1240.99', '€')")
+
+#c.execute("SELECT * FROM electronic_products")
+#products = c.fetchall()
+#for item in products:
+#    print(item[0], item[1], item[2])
+
+#connection.commit()
+#connection.close()
+
+def convert_image():
+    filename = "pele_1.png"
+    with open(filename, 'rb') as file:
+        photo = file.read()
+    return photo
