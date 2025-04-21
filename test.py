@@ -41,12 +41,12 @@ root.geometry("900x400")
 root.resizable(False, False)
 
 #logas virsraksts
-greeting = tk.Label(root, text="Laipni lūdzam uz Ventspils Starptautiskā elektronikas veikalu!",
+greeting = tk.Label(root, text="Laipni lūdzam Ventspils Starptautiskajā elektronikas veikalā!",
                     fg='blue', font=('Aerial', 20, 'bold'))
 greeting.pack()
 
 #ievieto teksta logrīku Label
-username = tk.Label(root, text="Lietotājvārdu: ", font=('Times New Roman', 13))
+username = tk.Label(root, text="Lietotājvārds: ", font=('Times New Roman', 13))
 username.place(x=310, y=100)
 password = tk.Label(root, text="Parole: ", font=('Times New Roman', 13))
 password.place(x=330, y=150)

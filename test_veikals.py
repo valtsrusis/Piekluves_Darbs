@@ -63,7 +63,7 @@ def new_tab():
     root.resizable(False, False)
 
     #logas virsraksts
-    greeting_veikals = tk.Label(root, text="Lūdzu, ievadiet savu ievēlēto elektronisko sīkrīku!", fg='blue', font=('Aerial', 20, 'bold'))
+    greeting_veikals = tk.Label(root, text="Lūdzu, ievadiet savu izvēlēto elektronisko ierīci!", fg='blue', font=('Aerial', 20, 'bold'))
     greeting_veikals.pack()
 
     #ievieto teksta logrīku LabelFrame
