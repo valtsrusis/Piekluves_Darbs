@@ -1,8 +1,13 @@
+#importē requests bibliotēku, kas ļauj vienkārši nosūtīt HTTP pieprasījumus.
 import requests
 
+#izsaukta funkcija no iepriekšēja python faila.
 def maps_function():
+
+    #izmantota Google API atslēga, lai piešķirtu atļauju izmantot no tā uzņēmuma API.
     GOOGLE_API_KEY = 'AIzaSyB9WNy4lIYhQTZAZcKS5etg-HmXHZo6J18' 
 
+    #izvēlētā adrese veikalā.
     address = 'Ausekļa iela 19-13'
 
     params = {
